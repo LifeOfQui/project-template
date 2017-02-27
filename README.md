@@ -11,8 +11,8 @@ run yarn
 ## Usage
 place files in specific folders:
 - Images: `app/assets/images` 
-- JS: `app/assets/images`
-- CSS: `app/assets/images`
+- JS: `app/assets/scripts`
+- CSS: `app/assets/styles`
 
 run gulp task
 - `gulp watch`
