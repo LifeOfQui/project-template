@@ -1,6 +1,8 @@
 # Template for upcoming projects
 gulp pre-configured template for upcoming projects
 
+pre-configured Webpack integration (to be able to write ES2015)
+
 pre-defined directory structur
 
 ## Installation
@@ -22,4 +24,3 @@ run gulp task
 - `gulp build`
 
 ## next steps
-- Webpack integration (to be able to write ES6)

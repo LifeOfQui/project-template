@@ -48,7 +48,7 @@ gulp.task('useminTrigger', ['deleteDistFolder'], function() {
     gulp.start('usemin');
 });
 
-gulp.task('usemin', ['styles'], function() {
+gulp.task('usemin', ['styles', 'scripts'], function() {
     return gulp.src('./app/*.html')
         .pipe(usemin({
             css: [function() {return rev()}, function() {return cssnano()}],
